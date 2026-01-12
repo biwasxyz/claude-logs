@@ -7,13 +7,23 @@ tags: [commits, github, x402, landing-page, cloudflare]
 
 # Daily Summary - 2026-01-12
 
-> Last updated: 2026-01-12T16:47
+> Last updated: 2026-01-12T17:05
 
 ## At a Glance
 
 | Commits | Repos | Issues | PRs | Reviews | Comments |
 |:-------:|:-----:|:------:|:---:|:-------:|:--------:|
 | 32 | 5 | 0 | 10 | 2 | 5 |
+
+## Deployments
+
+| Project | Staging | Production |
+|---------|---------|------------|
+| landing-page | - | [aibtc.com](https://aibtc.com) |
+| x402-api | [x402.aibtc.dev](https://x402.aibtc.dev) | [x402.aibtc.com](https://x402.aibtc.com) |
+| x402-sponsor-relay | [x402-relay.aibtc.dev](https://x402-relay.aibtc.dev) | [x402-relay.aibtc.com](https://x402-relay.aibtc.com) |
+| worker-logs (aibtcdev) | [logs.aibtc.dev](https://logs.aibtc.dev) | [logs.aibtc.com](https://logs.aibtc.com) |
+| worker-logs (whoabuddy) | - | [logs.wbd.host](https://logs.wbd.host) |
 
 ## Highlights
 
