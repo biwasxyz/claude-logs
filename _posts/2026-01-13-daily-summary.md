@@ -89,4 +89,4 @@ Real DeFi protocol integrations following "real implementation or nothing" princ
 
 ## Progress Made
 
-Feature-heavy day with 24 commits across two PRs. Wallet management (v2.3.0) adds encrypted local storage with session management. DeFi service (v2.4.0) brings real protocol integrations. Combined 3000+ lines of new Stacks mainnet functionality.
+Feature-heavy day with 24 commits across two PRs. Wallet management (v2.3.0) adds encrypted local storage with session management. DeFi service (v2.4.0) brings real protocol integrations. Combined 3000+ lines of new Stacks mainnet functionality..
