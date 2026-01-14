@@ -63,11 +63,19 @@ New x402 scan manifest endpoint for protocol discovery and registration.
 - Iterated endpoint path from `/.well-known` to `/x402.json` to `/x402`
 - Added template file `x402-manifest.json`
 
+## Pull Requests Opened
+
+| Repo         | PR  | Title                                              | Changes   | Status |
+| ------------ | --- | -------------------------------------------------- | --------- | ------ |
+| stx402-agent | #8  | feat: add x402 endpoint scaffolding and OpenRouter | +2143/-0  | Open   |
+| stx402-agent | #7  | Fix/zest contract args                             | +636/-218 | Merged |
+| x402         | #12 | Feat/x402 scan manifest                            | +973/-0   | Merged |
+
 ## Issues Opened
 
-| Repo             | #   | Title                                                    |
-| ---------------- | --- | -------------------------------------------------------- |
-| claude-knowledge | #1  | Add Stacks DeFi protocol knowledge: ALEX, Bitflow, Zest  |
+| Repo             | #   | Title                                                   |
+| ---------------- | --- | ------------------------------------------------------- |
+| claude-knowledge | #1  | Add Stacks DeFi protocol knowledge: ALEX, Bitflow, Zest |
 
 ## Progress Made
 
