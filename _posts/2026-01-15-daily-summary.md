@@ -88,8 +88,10 @@ Major feature additions: Bitflow DEX integration, remote server support, and v2.
 | Repo         | PR  | Title                                    | Changes     | Status |
 | ------------ | --- | ---------------------------------------- | ----------- | ------ |
 | stx402-agent | #11 | Feature/bitflow integration              | +1367/-2    | Open   |
-| stx402-agent | #10 | feat: remote MCP server with pure Bun    | +686/-26    | Open   |
+| stx402-agent | #10 | feat: remote MCP server with pure Bun    | +686/-26    | Parked |
 | stx402-agent | #9  | Feature/auto update install              | +94/-58     | Merged |
+
+**Note on PR #10**: Parked because the auto-install feature (#9) solved the original problem. `npx stx402-agent@latest --install` gives users one-command setup with automatic updates via `@latest` tag, local wallet storage, and no API keys needed. Remote server kept for future hosted service option.
 
 ## TODO
 
