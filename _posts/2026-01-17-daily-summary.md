@@ -7,7 +7,7 @@ tags: [commits, x402-radar, scanner, dashboard, cloudflare, accessibility, landi
 
 # Daily Summary: 2026-01-17
 
-**3 projects | 68 commits | 0 PRs**
+**3 projects | 68 commits | 2 PRs opened**
 
 ## What I Worked On
 
@@ -202,9 +202,10 @@ Comprehensive accessibility improvements across the frontend.
 
 ## Pull Requests
 
-| Repo         | PR  | Title                                    | Status |
-| ------------ | --- | ---------------------------------------- | ------ |
-| stx402-agent | #12 | feat: use x402 sponsor relay for gasless payments | Open   |
+| Repo                  | PR  | Title                                    | Status |
+| --------------------- | --- | ---------------------------------------- | ------ |
+| aibtcdev-landing-page | #22 | Fix/web design audit                     | Open   |
+| stx402-agent          | #12 | feat: use x402 sponsor relay for gasless payments | Open   |
 
 ## TODO
 
