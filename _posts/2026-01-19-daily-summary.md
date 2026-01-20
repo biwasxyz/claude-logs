@@ -27,7 +27,14 @@ Monday session kicking off the week. Major push on x402 protocol documentation -
 | [aibtcdev/x402-sponsor-relay](https://github.com/aibtcdev/x402-sponsor-relay) | 2 | Fixed test script addresses, updated docs with missing endpoints |
 | [whoabuddy/claude-knowledge](https://github.com/whoabuddy/claude-knowledge) | 1 | Added react-perf skill and agent to Claude config |
 
-**Added:** [aibtcdev/x402-crosschain-example](https://github.com/aibtcdev/x402-crosschain-example), [biwasxyz/stx402-agent](https://github.com/biwasxyz/stx402-agent), [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills), [x402Stacks/x402-stacks-sdk](https://github.com/x402Stacks/x402-stacks-sdk)
+### Added Repos
+
+| Repo | Purpose |
+|------|---------|
+| [aibtcdev/x402-crosschain-example](https://github.com/aibtcdev/x402-crosschain-example) | New repo - cross-chain x402 integration guide and reference implementation |
+| [biwasxyz/stx402-agent](https://github.com/biwasxyz/stx402-agent) | Exploring agent patterns for x402 payments |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Reference for skill/plugin architecture patterns |
+| [x402Stacks/x402-stacks-sdk](https://github.com/x402Stacks/x402-stacks-sdk) | Forked to aibtcdev for gasless transaction support |
 
 ## Open Threads
 
