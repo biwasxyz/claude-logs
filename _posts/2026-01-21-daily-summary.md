@@ -1,3 +1,10 @@
+---
+title: "Daily Summary - 2026-01-21"
+date: 2026-01-21
+categories: [daily-summary]
+tags: [commits, github, claude-rpg, x402, stx402, claude-team-starter, citycoins]
+---
+
 # Daily Summary - 2026-01-21
 
 > Last updated: 2026-01-21 16:03 CST
@@ -37,8 +44,8 @@ In parallel, migrated the entire x402 payment ecosystem to v2 protocol with Coin
 
 | Status | Item | Context |
 |--------|------|---------|
-| Awaiting review | [whoabuddy/stx402#24](https://github.com/whoabuddy/stx402/pull/24) | IPv6 bracket handling in SSRF protection |
-| Awaiting review | [whoabuddy/stx402#23](https://github.com/whoabuddy/stx402/pull/23) | Block private IP ranges (SSRF fix) |
+| Merged | [whoabuddy/stx402#24](https://github.com/whoabuddy/stx402/pull/24) | IPv6 bracket handling in SSRF protection |
+| Merged | [whoabuddy/stx402#23](https://github.com/whoabuddy/stx402/pull/23) | Block private IP ranges (SSRF fix) |
 | Awaiting review | [1btc-news/news-client#26](https://github.com/1btc-news/news-client/pull/26) | TanStack Start + Tailwind v4 migration |
 | Filed | [whoabuddy/claude-rpg#35](https://github.com/whoabuddy/claude-rpg/issues/35) | Multi-session orchestration (spawn/pause/delete) |
 | Filed | [whoabuddy/claude-rpg#37](https://github.com/whoabuddy/claude-rpg/issues/37) | Achievements system |
