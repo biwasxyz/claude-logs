@@ -7,7 +7,7 @@ tags: [faremeter, x402-outreach, claude-rpg, x402.jobs, stacks, x402, usdcx-fix]
 
 # Daily Summary - 2026-01-28
 
-> Last updated: 2026-01-28T20:18 CST
+> Last updated: 2026-01-29T00:55 CST
 
 ## TL;DR
 
@@ -21,7 +21,7 @@ Major Stacks integration work across two external projects. Faremeter received a
 
 | Repo | Commits | Focus |
 |------|:-------:|-------|
-| [faremeter/faremeter](https://github.com/faremeter/faremeter) | 11 | Complete Stacks payment package: STX validation, SIP-010 transfers, facilitator handler |
+| [faremeter/faremeter](https://github.com/faremeter/faremeter) | 15 | Complete Stacks payment package: STX validation, SIP-010 transfers, facilitator handler, client payment handler |
 | [aibtcdev/x402-outreach](https://github.com/aibtcdev/x402-outreach) | 7 | AEON meeting prep, Faremeter contact, USDCx fixes, consolidated tracking |
 | [rawgroundbeef/x402.jobs](https://github.com/rawgroundbeef/x402.jobs) | 3 | Stacks blockchain payment support with x402 v2 types |
 | [whoabuddy/claude-rpg](https://github.com/whoabuddy/claude-rpg) | 3 | Quest archive system, resolved 14 issues (#89-102) |
@@ -32,6 +32,7 @@ Major Stacks integration work across two external projects. Faremeter received a
 | [aibtcdev/aibtc-mcp-server](https://github.com/aibtcdev/aibtc-mcp-server) | 1 | Correct sBTC and USDCx contract addresses |
 | [whoabuddy/claude-knowledge](https://github.com/whoabuddy/claude-knowledge) | 1 | Archive OpenFacilitator Stacks quest execution |
 | [whoabuddy/run-my-claude](https://github.com/whoabuddy/run-my-claude) | 1 | USDCx contract address fix |
+| [whoabuddy/claude-logs](https://github.com/whoabuddy/claude-logs) | 1 | Daily summary for 2026-01-28 |
 
 ### Added Repos
 
@@ -43,6 +44,11 @@ Major Stacks integration work across two external projects. Faremeter received a
 | [PayAINetwork/*](https://github.com/PayAINetwork) | Cloned (8 repos) | PayAI ecosystem exploration |
 | [pbtc21/sbtc-appleseed](https://github.com/pbtc21/sbtc-appleseed) | Cloned | sBTC reference project |
 | [web3luka/relai-sdk](https://github.com/web3luka/relai-sdk) | Cloned | RelAI SDK reference |
+| [pinatacloud/docs](https://github.com/pinatacloud/docs) | Cloned | Pinata documentation reference |
+| [pinatacloud/grapevine](https://github.com/pinatacloud/grapevine) | Cloned | Pinata social protocol |
+| [pinatacloud/pinata](https://github.com/pinatacloud/pinata) | Cloned | Pinata SDK |
+| [pinatacloud/pinata-mcp](https://github.com/pinatacloud/pinata-mcp) | Cloned | Pinata MCP server |
+| [x402-rs/x402-rs](https://github.com/x402-rs/x402-rs) | Cloned | Rust x402 implementation |
 
 ## Open Threads
 
@@ -50,12 +56,17 @@ Major Stacks integration work across two external projects. Faremeter received a
 |--------|------|---------|
 | Merged | [whoabuddy/claude-rpg#103](https://github.com/whoabuddy/claude-rpg/pull/103) | Resolved 11 issues (#89-99) |
 | Merged | [whoabuddy/claude-rpg#105](https://github.com/whoabuddy/claude-rpg/pull/105) | Resolved remaining issues (#100-102) |
+| Merged | [whoabuddy/claude-rpg#108](https://github.com/whoabuddy/claude-rpg/pull/108) | Quest archive system for manual completion |
 | Merged | [aibtcdev/docs#7](https://github.com/aibtcdev/docs/pull/7) | Restructure as canonical reference layer |
 | Merged | [aibtcdev/x402-crosschain-example#8](https://github.com/aibtcdev/x402-crosschain-example/pull/8) | Self-hosting docs and payment helpers |
+| Merged | [aibtcdev/x402-api#33](https://github.com/aibtcdev/x402-api/pull/33) | Token contract handling and test validation |
+| Merged | [aibtcdev/aibtc-mcp-server#23](https://github.com/aibtcdev/aibtc-mcp-server/pull/23) | sBTC and USDCx contract addresses |
+| Merged | [whoabuddy/stx402#28](https://github.com/whoabuddy/stx402/pull/28) | Testnet USDCx contract address |
+| Awaiting review | [whoabuddy/run-my-claude#1](https://github.com/whoabuddy/run-my-claude/pull/1) | USDCx contract addresses |
+| Awaiting review | [aibtcdev/x402-crosschain-example#9](https://github.com/aibtcdev/x402-crosschain-example/pull/9) | Testnet USDCx contract address |
 | Awaiting review | [rawgroundbeef/x402.jobs#2](https://github.com/rawgroundbeef/x402.jobs/pull/2) | Stacks blockchain payment support |
 | Awaiting review | [rawgroundbeef/OpenFacilitator#7](https://github.com/rawgroundbeef/OpenFacilitator/pull/7) | CLAUDE.md for Claude Code users |
 | Awaiting review | [rawgroundbeef/OpenFacilitator#8](https://github.com/rawgroundbeef/OpenFacilitator/pull/8) | Feature cards grid layout fix |
-| Awaiting review | [x402Stacks/x402-stacks-sdk#3](https://github.com/x402Stacks/x402-stacks-sdk/pull/3) | Stacks v6 to v7 migration |
 | Filed | [AEON-Project/bnb-x402#6](https://github.com/AEON-Project/bnb-x402/issues/6) | Stacks network support (Phase 1) |
 | Filed | [faremeter/faremeter#106](https://github.com/faremeter/faremeter/issues/106) | Stacks blockchain support tracking |
 | Filed | [whoabuddy/claude-rpg#107](https://github.com/whoabuddy/claude-rpg/issues/107) | Question prompt not showing in GUI |
@@ -72,7 +83,7 @@ Major Stacks integration work across two external projects. Faremeter received a
 
 | Commits | Repos | PRs Opened | PRs Merged | Issues Created | Issues Closed |
 |:-------:|:-----:|:----------:|:----------:|:--------------:|:-------------:|
-| 35 | 11 | 13 | 4 | 20 | 20 |
+| 36 | 12 | 13 | 8 | 20 | 20 |
 
 ## Companion Activity
 
