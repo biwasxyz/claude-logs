@@ -2,27 +2,27 @@
 title: "Daily Summary - 2026-01-30"
 date: 2026-01-30
 categories: [daily-summary]
-tags: [claude-rpg, moltbook, aibtc-mcp-server, docs, landing-page, x402]
+tags: [claude-rpg, moltbook, aibtc-mcp-server, docs, landing-page, x402, release-please]
 ---
 
 # Daily Summary - 2026-01-30
 
-> Last updated: 2026-01-30 22:08 CST
+> Last updated: 2026-01-31 00:29 CST
 
 ## TL;DR
 
-Major releases across claude-rpg (v2.0-v2.3) and launched Moltbook, a new autonomous social media engagement platform. Added Bitcoin L1 support to the aibtc MCP server.
+Major releases across claude-rpg (v2.0-v2.3) and launched Moltbook with 105 commits building a complete autonomous social engagement platform. Added Bitcoin L1 support and release-please automation to the aibtc MCP server.
 
 ## Highlights
 
-Claude-rpg hit a milestone with a complete architecture rewrite (v2.0) followed by rapid iteration through v2.3 - closed 18 issues in a single day with UI improvements, terminal reliability, persona management, and notification systems. Moltbook emerged as a new experiment: an autonomous agent orchestrator for social platform engagement with OODA-loop control, relationship tracking, and multi-agent coordination. The aibtc-mcp-server gained full Bitcoin L1 capabilities - address derivation, balance checks, and native BTC transfers.
+Claude-rpg hit a milestone with a complete architecture rewrite (v2.0) followed by rapid iteration through v2.3 - closed 18 issues in a single day with UI improvements, terminal reliability, persona management, and notification systems. Moltbook emerged as a major new project with 105 commits: an autonomous agent orchestrator for social platform engagement featuring OODA-loop control, multi-agent coordination, relationship tracking, pattern detection, network strategy, and content scheduling. The aibtc-mcp-server gained full Bitcoin L1 capabilities plus release-please automation and ClawHub Agent Skill publishing.
 
 ## Commits
 
 | Repo | Commits | Focus |
 |------|:-------:|-------|
-| [whoabuddy/moltbook](https://github.com/whoabuddy/moltbook) | 57 | New project: autonomous social engagement with OODA loop, multi-agent orchestrator, DM handling, content scheduling |
-| [aibtcdev/aibtc-mcp-server](https://github.com/aibtcdev/aibtc-mcp-server) | 27 | Bitcoin L1 tools: address derivation (BIP84), balance/UTXO checks, native BTC transfers, mempool.space integration |
+| [whoabuddy/moltbook](https://github.com/whoabuddy/moltbook) | 105 | New project: OODA loop orchestrator, multi-agent system, pattern detection, network strategy, content templates, reply/comment automation |
+| [aibtcdev/aibtc-mcp-server](https://github.com/aibtcdev/aibtc-mcp-server) | 30 | Bitcoin L1 tools (BIP84, transfers), release-please automation, ClawHub Agent Skill publishing |
 | [whoabuddy/claude-rpg](https://github.com/whoabuddy/claude-rpg) | 9 | v2.0-v2.3 release marathon: architecture rewrite, terminal capture fixes, UI consolidation, persona system |
 | [whoabuddy/claude-knowledge](https://github.com/whoabuddy/claude-knowledge) | 4 | MCP tools documentation, Moltbook integration for daily-brief, Clarity registry templates |
 | [aibtcdev/x402-outreach](https://github.com/aibtcdev/x402-outreach) | 2 | sBTC-appleseed comparison, integration patterns documentation |
@@ -43,20 +43,22 @@ Claude-rpg hit a milestone with a complete architecture rewrite (v2.0) followed 
 | Merged | [aibtcdev/landing-page#34](https://github.com/aibtcdev/landing-page/pull/34) | Bitcoin-first refresh for landing page |
 | Merged | [aibtcdev/docs#10](https://github.com/aibtcdev/docs/pull/10) | Professional docs styling overhaul |
 | Merged | [whoabuddy/stx402#29](https://github.com/whoabuddy/stx402/pull/29) | Update facilitator URL to new domain |
+| Merged | [aibtcdev/aibtc-mcp-server#33](https://github.com/aibtcdev/aibtc-mcp-server/pull/33) | Agent Skill with ClawHub publishing |
 | Filed | [aibtcdev/aibtc-mcp-server#29](https://github.com/aibtcdev/aibtc-mcp-server/issues/29) | Bitcoin L1 address derivation tracking |
 | Filed | [aibtcdev/aibtc-mcp-server#28](https://github.com/aibtcdev/aibtc-mcp-server/issues/28) | SIP-018 structured data signing - next wallet feature |
 
 ## Also Today
 
-- Deep exploration of autonomous agent patterns with Moltbook - OODA loop control flow, multi-agent coordination, relationship tracking systems
+- Deep exploration of autonomous agent patterns with Moltbook - OODA loop control flow, multi-agent coordination, relationship tracking, pattern detection systems
 - Research into sBTC-appleseed integration patterns for x402 outreach documentation
 - Reviewed and approved PRs #27 and #24 on aibtc-mcp-server
+- Set up release-please automation for aibtc-mcp-server
 
 ## Stats
 
 | Commits | Repos | PRs | Issues | Reviews |
 |:-------:|:-----:|:---:|:------:|:-------:|
-| 101 | 7 | 4 merged | 18 closed | 2 |
+| 152 | 7 | 5 merged | 18 closed | 2 |
 
 ## Companion Activity
 
